@@ -1,0 +1,252 @@
+
+.avataricon{
+    padding: 20px;
+}
+.navbar{
+    padding-bottom: 0rem!important ;
+    
+}
+.mainlink:active{
+    border-bottom: 3px solid orange !important;
+    
+
+}
+.maincart{
+    font-weight: 700;
+   color:#05053ea1 !important;
+    
+}
+.maincart:active,.maincart:enabled{
+    border-bottom: 3px solid gray !important;
+}
+/*Table styles*/
+MDBTable {
+    font-family: sans-serif;
+    text-align: center;
+  }
+th{
+    color:'#b4b6b8' !important;
+    font-weight: 400;
+    padding: 20px 0px !important;
+  }
+td{
+    padding: 20px 0px !important;
+}
+.bexpire{
+   color: orange !important;
+
+  }
+.aexpire{
+    color: '#d3d1cb' !important;
+}
+.new{
+    color: green;
+    font-weight: 500;
+    border:none;
+    background: #e7fde7;
+    border-radius: 20px;
+    margin: 0px 20px;
+    padding: 2px 12px;
+}
+.expire{
+    display: flex;
+    flex-direction: row;
+}
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    text-align: left;
+    border-bottom: 2px solid black;
+  }
+  
+  thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    padding: 0.5em;
+    margin-bottom: 1px;
+  }
+  
+  thead button.ascending::after {
+    content: '👇';
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  thead button.descending::after {
+    content: '☝️';
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tbody tr:hover {
+    background-color: #eee;
+  }
+  .search{
+    width: 50% !important;
+    margin:0 0 10px 0;
+    height: 50px;
+  }
+  input {
+    
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+
+    padding: 10px 5px 10px 20px;
+    text-indent: 20px;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
+
+    
+}
+.form-group .form-control {
+    padding-left: 2.375rem;
+    width:90% !important
+}
+
+.form-group .form-control-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.plusicon{
+    border:1px solid salmon !important;
+    background:salmon !important;
+
+}
+.arrowicon{
+    font-size: 30px;
+    color: gray;
+}
+.container{
+    margin:2% 20%;
+    height: 400px;
+    background:#acb7c014 !important;
+    
+    
+}
+.container1{
+    margin:0% 7% !important;
+    height: 400px;
+    background:#acb7c014 !important;
+    border-radius: 0 0 5px 5px;
+}
+.container3{
+  margin:2% 7% !important;
+  padding: 2%;
+  
+  background:#acb7c014 !important;
+  border-radius: 0 0 5px 5px;
+}
+.container2{
+    margin:0% 7% !important;
+    height: 200px;
+    background:#acb7c014 !important;
+    border-radius: 0 0 5px 5px;
+}
+
+.titlecontainer{
+    border-radius: 5px 5px 0 0;
+   background-color: #aaa !important ;
+   height: 40px; 
+   font-weight: bolder;
+   font-size: larger;
+   padding: 0 3%;
+   margin-top: 2% !important;
+   box-shadow:         0px 0px 2px 0px #ccc;
+   
+}
+.lasttitle{
+ 
+ width: 60%; 
+ font-weight: bolder;
+ font-size: larger; 
+}
+.progress{
+    margin:2% 20%;
+     
+}
+.dropdowntitle{
+    text-align: center;
+    margin:20px 0 0 0;
+    font-size: 16px;
+}
+.configbtn{
+    border:1px solid darkred;
+    border-radius: 2px;
+    background-color: darkred;
+    color: whitesmoke;
+    padding: 1% 2%;
+}
+.prebtn{
+  border:1px solid darkred;
+    border-radius: 2px;
+    
+    color: darkred;
+    padding: 1% 2%;
+    margin-right: 2%;
+}
+.shadow {
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+  }
+  
+  .btn-group{
+    border: 1px solid gray !important;
+    border-radius: 5px !important;
+  }
+  .IDbtn{
+    font-size: larger;
+    font-weight: bold;
+    width: 60px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .IDbtn1{
+    font-size: larger;
+    font-weight: bold;
+    width: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .iconbtn{
+    width: 25%;
+    color: darkred;
+    padding: 1%;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+
