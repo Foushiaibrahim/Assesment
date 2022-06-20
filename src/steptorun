@@ -1,5 +1,15 @@
 Download from Github:
+---------------------
+open thr github Repository
+open the termina and go to extact path and paste the below command
+git clone git@github.com:Foushiaibrahim/Assesment.git
 
+or:
+download the zip file
+extract the file 
+open the vscode and run
+
+--------------------------
 1.open the terminal (ctrl+shift+`)
 2.Make sure to check the path name
 3.npm install
